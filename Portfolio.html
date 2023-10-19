@@ -1,0 +1,141 @@
+<html>
+<head>
+<style>
+    #Me{
+        display: block;
+        text-align: left;
+        background-color: rgb(43, 37, 37);
+        padding: 5pt;
+    }
+    
+    body{
+        background-color: whitesmoke;
+    }
+    
+    h2{
+        display: block;
+        text-align: center;
+        color: white;
+        font-family: Arial;
+        margin-top: -70pt;
+        font-size: x-large;
+    }
+    
+    nav ul, nav, nav a{
+        display: flex;
+        list-style-type: none;
+        margin-top: 40pt;
+        background-color: rgb(43, 37, 37);
+        justify-content: center;
+        color: #fff;
+        text-decoration: none;
+        margin: 2pt 10px;
+    }
+    
+    .avatar {
+        vertical-align: middle;
+        width: 140px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    
+    #About{
+        display: block;
+        background-color: white;
+        padding: 10pt;
+        font-family: Arial;
+    }
+    
+    #Education{
+        display: block;
+        background-color: white;
+        padding: 20pt;
+        margin-top: 20pt;
+        font-family: Arial;
+    }   
+    
+    #Skills{
+        display: block;
+        background-color: white;
+        padding: 20pt;
+        margin-top: 20pt;
+        font-family: Arial;
+    }
+    
+    #Projects{
+        display: block;
+        background-color: white;
+        padding: 20pt;
+        margin-top: 20pt;
+        font-family: Arial;
+    }
+    
+    #Resume{
+        display: block;
+        background-color: white;
+        text-align: center;
+        margin-top: 20pt;
+        font-family: Arial;
+    }
+    nav a{
+        display: block;
+        box-sizing: border-box;
+        border-color: white;
+    }
+
+</style>
+              <!------Bootstrap------->
+</head>
+<body>
+<!---container
+container-fluid-->
+
+<div class="container">
+<div id="Header">
+    <div id="Me">
+        <img src="Rainy Pic 2.jpg" alt="Avatar" class="avatar">
+        <h2>AKASHSEKAR<br><br>
+        Passionate On Developing</h2>
+    </div>
+        <nav>
+             <ul>
+                <li><a href="#About">About</a></li> 
+                <li><a href="#Education" data-after="Education">Education</a> </li>
+                <li><a href="#Skills" data-after="Skills">Skills</a> </li>
+                <li><a href="#Projects" data-after="Projects">Projects</a> </li>
+                <li><a href="#Resume" data-after="Resume">Resume</a> </li>
+            </ul>
+        </nav>
+    <div id="About">
+        <h1>About Me</h1>
+        Hello Everyone This Is Akash S.R and iam a developer Mentor.
+    </div>
+    <div id="Education">
+        <h1>B.S.C.</h1> 
+        M.G.R Art's & Science Collage Kaattumannarkoil<br>    
+    </div>
+    <div id="Skills">
+       <h1>Skills</h1>
+       <ul>
+        <li>HTML,CSS</li>
+        <li>Artificial Intelligence</li>
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
+    </ul>
+    </div>
+    <div id="Projects">
+        <h1>Projects</h1>
+        <a href ="http://myraider.epizy.com/">Project 1</a><br>
+        <a href ="http://yamahaservice.000.pe/">Project 2</a>
+    </div>
+    <div id="Resume">
+        <h1>Resume</h1><nav>
+        <ul>
+        <li><center><a href ="My Resume.docx">Download CV</a>
+            </center></li></ul></nav>
+        </div>
+</div>
+   <script src="./Assets/js/jquery.min.js"></script>
+   <script src="./Assets/js/bootstrap.min.js"></script>
+</body>
+</html>

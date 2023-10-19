@@ -1,0 +1,86 @@
+#Me{
+    display: block;
+    text-align: left;
+    background-color: rgb(43, 37, 37);
+    padding: 20pt;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h2{
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    margin-top: -70pt;
+    font-size: x-large;
+}
+
+nav ul, nav li, nav a{
+    display: flex;
+    list-style-type: none;
+    margin-top: 40pt;
+    background-color: rgb(43, 37, 37);
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    margin: 10pt 5px;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 140px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#About{
+    display: block;
+    background-color: white;
+    padding: 10pt;
+    font-family: Arial;
+}
+
+#Education{
+    display: block;
+    background-color: white;
+    padding: 20pt;
+    margin-top: 20pt;
+    font-family: Arial;
+}   
+
+#Skills{
+    display: inline;
+    background-color: white;
+    margin-top: 20pt;
+    font-family: Arial;
+}
+
+#ul{
+    display: inline;
+    font-size: 10pt;
+}
+
+#Projects{
+    display: block;
+    background-color: white;
+    padding: 20pt;
+    margin-top: 20pt;
+    font-family: Arial;
+}
+
+#Resume{
+    display: block;
+    background-color: white;
+    padding: 20pt;
+    margin-top: 20pt;
+    color: rgb(43, 37, 37);
+    font-family: Arial;
+}
+
+li{
+    color: inherit;
+    font-size: xx-large;
+}
